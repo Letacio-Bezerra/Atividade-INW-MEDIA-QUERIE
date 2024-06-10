@@ -1,0 +1,51 @@
+/*Regra Geral*/
+body{
+    background-color: rgb(3, 142, 255);
+}
+
+header {
+    background-color: rgb(28, 5, 241);
+    color: #fff;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 100%;
+}
+
+/* Layout para desktop, telas maiores que 480px */
+@media (min-width:481px) {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+  
+/* Layout para desktop, telas menores que 480px */
+@media (min-width:0px) {
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .img{
+        width: 100%;
+    }
+  }
